@@ -1,15 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .boxbutton {
     flex: 1;
+    flex-basis: 100%;
+    max-width: 500px;
     border-style: solid;
     border-color: rgb(58, 34, 137);
     background-color: rgba(50, 46, 74, .85);
     border-width: 4px;
     color: white;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-
+    margin: 4px;
     cursor: pointer;
   }
 
@@ -32,8 +37,6 @@ h2 {
     color: white;
 }
 
-
-
 #aenor:hover {
     background-color: rgba(50, 46, 74, .85);
 }
@@ -50,10 +53,3 @@ h2 {
     background-size: cover;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 80%;
-    margin: 4px;
-}
