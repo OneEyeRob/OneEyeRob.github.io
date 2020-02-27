@@ -16,12 +16,16 @@
     text-align: center;
     margin: 4px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
   }
 
 .boxbutton:hover {
     background-color: rgba(50, 46, 74, .85);
     color: white;
   }
+
+
 
 h1 {
     text-align: center;
@@ -35,6 +39,11 @@ body {
 h2 {
     background-color: rgba(50, 46, 74, .85);
     color: white;
+}
+
+p {
+    color: white;
+    background-color: rgba(50, 46, 74, .85);
 }
 
 #aenor:hover {
