@@ -4,14 +4,11 @@ html {
     justify-content: center;
 }
 
-.outerwrapper {
-    justify-content: center;
-}
-
-.container {
+.pagewrap {
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -39,3 +36,28 @@ html {
   li a:hover {
     background-color: #111;
   }
+
+  h3 {
+      color: gold;
+  }
+
+  #mefirepit {
+      
+  }
+
+  img {
+      width: 100%;
+  }
+
+  .contentbox {
+    display: flex;
+  }
+
+  .boxtext {
+    color: white;
+
+  }
+
+.boximg {
+    background-color: black;
+}
