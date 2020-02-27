@@ -1,7 +1,8 @@
 html {
     background-color: rgb(68, 68, 68);
-    color: silver;
+    color: rgb(237, 237, 237)   ;
     justify-content: center;
+    font-family: sans-serif;
 }
 
 .pagewrap {
@@ -61,4 +62,5 @@ img {
 
 #freelanceoverview {
     text-align: center;
+    max-width: 70%;
 }
