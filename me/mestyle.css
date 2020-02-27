@@ -33,31 +33,32 @@ html {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
     background-color: #111;
   }
 
-  h3 {
+h3 {
       color: gold;
   }
 
-  #mefirepit {
-      
-  }
-
-  img {
+img {
       width: 100%;
   }
 
-  .contentbox {
+.contentbox {
     display: flex;
   }
 
-  .boxtext {
+.boxtext {
     color: white;
+    text-align: center;
 
   }
 
 .boximg {
     background-color: black;
+}
+
+#freelanceoverview {
+    text-align: center;
 }
